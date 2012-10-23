@@ -27,6 +27,9 @@ INSTALL
 You will need Visual C++ (I used 2012) to compile this.
 You need VC development libraries for SDL 1.2, get it from http://www.libsdl.org/download-1.2.php
 
+Open the solution up in Visual Studio, then add your SDL include and SDL library directories to the project under Properties/VC++ Directories/include directories and Properties/VC++ Directories/library directories.
+
+
 AUTHORS
 
 Yujin Wu (yujinwunz@hotmail.com)
