@@ -7,7 +7,7 @@ Date: 19/10/12
 
 *************************************
 
-DESCRIPTION
+Introduction
 
 A demo of Yujin Wu's unfortunate understanding of windows.
 
@@ -16,19 +16,16 @@ Minesolver is an automatic minesweeper solver specifically for windows 7 and vis
 It will also begin solving from any initial state; you can use it to dig you out of a difficult game.
 
 FILES
-main.cpp is the only source file. 
 
-/Pictures/ contains bitmaps used for image recognition. You may back them up and replace them with custom ones to allow the program to solve any version of minesweeper.
+/Minesolver1/main.cpp is the only source file. 
 
-The working release can be found on the github's download section. The compiled executable has been tested under windows 7.
+/Release/Pictures/ contains bitmaps used for image recognition. You may back them up and replace them with custom ones to allow the program to solve any version of minesweeper.
+
 
 INSTALL
 
 You will need Visual C++ (I used 2012) to compile this.
 You need VC development libraries for SDL 1.2, get it from http://www.libsdl.org/download-1.2.php
-
-Open the solution up in Visual Studio, then add your SDL include and SDL library directories to the project under Properties/VC++ Directories/include directories and Properties/VC++ Directories/library directories.
-
 
 AUTHORS
 
