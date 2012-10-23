@@ -482,11 +482,11 @@ public:
 		inp[inps].mi.dwFlags = message2|MOUSEEVENTF_MOVE|MOUSEEVENTF_ABSOLUTE;
 		inps++;
 		send();
+		wait(40);
 	}
 	void send(){
 		SendInput(inps,inp,sizeof(inp[0]));
 		inps = 0;
-		wait(40);
 	}
 
 private:
@@ -504,7 +504,7 @@ public:
 	}
 	void leave(){
 		focus();
-		moveCursor(x2+200,y1+50);
+		moveCursor(x2-10,y1-10);
 		performClick(MOUSEEVENTF_LEFTDOWN,MOUSEEVENTF_LEFTUP);
 		wait(50);
 	}
